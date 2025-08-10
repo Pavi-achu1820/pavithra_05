@@ -7,21 +7,59 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            text-align: center;
             margin: 50px;
             background-color: #f0f0f0;
-        }
-        h1 {
             color: #333;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+            text-align: center;
         }
         p {
             color: #666;
+            text-align: center;
+        }
+        .resume-section {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .resume-section ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .resume-section li {
+            margin: 10px 0;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
     <h1>Welcome to My GitHub Page</h1>
     <p>This is a simple webpage hosted on GitHub Pages.</p>
-    <p><a href="Piano using 555_timer IC.pdf">View My Project Report</a></p>
+    
+    <div class="resume-section">
+        <h2>Projects</h2>
+        <ul>
+            <li><a href="Internship_Digital beamforming_report.pdf">Internship Report : [Digital Beamforming]</a> - [In digital beamforming, the signals received by each antenna el
+ement are digitized using individual independent analog-to-digital converters (ADCs) and combined
+ in the digital domain using software-defined phase shifts]</li>
+            <li><a href="DIGITAL CLOCK.pdf">Project Report 2: [Digital Clock on FPGA]</a> - [This project presents the design and implementation of a digital clock using Verilog
+HDL, deployed on an FPGA platform. The clock operates in a 24-hour format,
+displaying hours, minutes, and seconds on seven-segment LEDs]</li>
+            <li><a href="Piano using 555_timer IC.pdf">Project Report 3: [Creation of electric piano using NE555 timer circuit]</a> - [The document describes a circuit that uses a 555 timer IC to create a simple piano by generating tones
+ with a speaker.]</li>
+        </ul>
+    </div>
 </body>
 </html>
